@@ -32,9 +32,9 @@ class YaPageTest extends BaseTest {
     }
 
     @Test
-    @Story("Открытие главной страницы")
-    @DisplayName("Проверка открытия главной страницы ya.ru")
-    @Description("Тест проверяет, что главная страница Яндекса успешно открывается и содержит поисковую строку")
+    @Story("Проверка поиска")
+    @DisplayName("Проверка поиска по запросу котиков")
+    @Description("Тест проверяет, что поиск работает")
     @Severity(SeverityLevel.BLOCKER)
     public void testSearch() {
         // Arrange
